@@ -3,6 +3,7 @@
 --- 1.Insert a new record in your Orders table.
          INSERT INTO Orders ( OrderID,CustomerID,SalesmanID,Orderdate,Amount )
 		       VALUES (5005,8351,111,'2024-09-2002',2000.00);
+
 ---2. Add Primary key constraint for SalesmanId column in Salesman table. Add default constraint for City column in Salesman table. Add Foreign key constraint for SalesmanId
         -- column in Customer table. Add not null constraint in Customer_name column for the
         -- Customer table.
@@ -18,7 +19,7 @@
 		
 
 
- ---3.Fetch the data where the Customer’s name is ending with ‘N’ also get the purchase amount value greater than 500.
+ ---3.Fetch the data where the Customerâ€™s name is ending with â€˜Nâ€™ also get the purchase amount value greater than 500.
 
       SELECT 
 	  *
@@ -62,6 +63,7 @@
  FROM
  Salesman AS S
  RIGHT JOIN Orders AS O ON S.SalesmanId = O.SalesmanId;
+
 
 
 
