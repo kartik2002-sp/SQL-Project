@@ -1,5 +1,5 @@
 -- Tasks to be performed:
--- 1. Display the number of states present in theLocationTable.
+-- 1. Display the number of states present in the LocationTable.
 
    SELECT
    COUNT(DISTINCT State) as [number_of_states]
@@ -276,7 +276,7 @@ GO
 
 
  ---25.Create a user-defined function for the product table to fetch aparticular
-        ---product type based upon the user’s preference.
+        ---product type based upon the userâ€™s preference.
 
 		CREATE FUNCTION FN_001(@user_preference VARCHAR(30))
 		RETURNS TABLE
