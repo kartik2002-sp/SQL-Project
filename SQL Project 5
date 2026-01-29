@@ -5,9 +5,8 @@
 3. List all job details. 
 4. List all the locations. 
 5. List out the First Name, Last Name, Salary, Commission for all Employees. 
-6. List out the Employee ID, Last Name, Department ID for all employees and alias 
-Employee ID as "ID of the Employee", Last Name as "Name of the 
-Employee", Department ID as "Dep_id". 
+6. List out the Employee ID, Last Name, Department ID for all employees and alias Employee ID as "ID of the Employee", Last Name as "Name of the 
+    Employee", Department ID as "Dep_id". 
 7. List out the annual salary of the employees with their names only.
 
 
