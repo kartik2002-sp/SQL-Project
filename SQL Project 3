@@ -1,7 +1,0 @@
-Tasks to be performed:
-1. Create a stored procedure to display the restaurant name, type and cuisine where the table booking is not zero.
-2. Create a transaction and update the cuisine type ‘Cafe’ to ‘Cafeteria’. Check the result and rollback it.
-3. Generate a row number column and find the top 5 areas with the highest rating of restaurants.
-4. Use the while loop to display the 1 to 50.
-5. Write a query to Create a Top rating view to store the generated top 5 highest rating of restaurants.
-6. Write a trigger that sends an email notification to the restaurant owner whenever a new record is inserted.
