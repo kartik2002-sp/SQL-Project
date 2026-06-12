@@ -10,7 +10,7 @@
 			Jomato
 			where TableBooking not like '%no%'
 	  end;
- --2. Create a transaction and update the cuisine type ‘Cafe’ to ‘Cafeteria’. Check the result
+ --2. Create a transaction and update the cuisine type â€˜Cafeâ€™ to â€˜Cafeteriaâ€™. Check the result
       --and rollback it.
 	  begin transaction;
 
