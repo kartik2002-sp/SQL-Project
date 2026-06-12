@@ -1,6 +1,6 @@
  ---Tasks to be performed:
- --1. Create a user-defined functions to stuff the Chicken into ‘Quick Bites’. Eg: ‘Quick
- --Chicken Bites’.
+ --1. Create a user-defined functions to stuff the Chicken into â€˜Quick Bitesâ€™. Eg: â€˜Quick
+ --Chicken Bitesâ€™.
 
   create function function_01(@x varchar(20),@y varchar(20),@z varchar(20))
   returns varchar(20)
@@ -31,9 +31,9 @@
  CuisinesType
  order by MAX(No_of_Rating) desc;
 
- --3. Create a Rating Status column to display the rating as ‘Excellent’ if it has more the 4
- --start rating, ‘Good’ if it has above 3.5 and below 4 star rating, ‘Average’ if it is above 3
- --and below 3.5 and ‘Bad’ if it is below 3 star rating and
+ --3. Create a Rating Status column to display the rating as â€˜Excellentâ€™ if it has more the 4
+ --start rating, â€˜Goodâ€™ if it has above 3.5 and below 4 star rating, â€˜Averageâ€™ if it is above 3
+ --and below 3.5 and â€˜Badâ€™ if it is below 3 star rating and
 
  select
  *,
